@@ -1,0 +1,27 @@
+﻿<Window x:Class="CBBackground.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:CBBackground"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="MainWindow"
+        Width="800"
+        Height="450"
+        Style="{StaticResource MaterialDesignWindow}"
+        mc:Ignorable="d">
+    <Grid>
+        <StackPanel>
+            <ComboBox Style="{StaticResource MaterialDesignOutlinedComboBox}">
+                <ComboBox.Items>
+                    <ComboBoxItem>Item 1</ComboBoxItem>
+                    <ComboBoxItem>Item 2</ComboBoxItem>
+                    <ComboBoxItem>Item 3</ComboBoxItem>
+                </ComboBox.Items>
+            </ComboBox>
+            <TextBlock>12312312312</TextBlock>
+            <TextBlock>454646454545</TextBlock>
+            <TextBlock>12312312312</TextBlock>
+            <TextBlock>454646454545</TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
